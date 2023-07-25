@@ -8,7 +8,8 @@
 /* Site logo with animation */
 .site-logo {
     float: left;
-    padding: 25px 0 0 30px;
+    margin-top: 15px;
+    margin-left: 30px;
     animation-name: logo-zoom;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -29,9 +30,14 @@
 .navigation {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-top: 110px;
+    margin-right: 50px;
 }
 
+.navigation li {
+    display: inline;
+    margin-right: 30px;
+}
 
 .navigation a {
     font-family: 'Nunito', sans-serif;
@@ -50,4 +56,17 @@
 
 .navigation a:hover {
     border-bottom: 1px solid #1e81b0;
+}
+
+#dandelion {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#dandelion-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/dandelion-image.jpg') no-repeat center center;
+
 }
