@@ -1,0 +1,22 @@
+/* set all padding, margin and border to 0 or none */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.navigation a {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #873e23;
+}
+
+#active {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #1e81b0;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}
