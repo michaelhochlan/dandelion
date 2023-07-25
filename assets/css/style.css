@@ -5,6 +5,34 @@
     border: none;
 }
 
+/* Site logo with animation */
+.site-logo {
+    float: left;
+    padding: 25px 0 0 30px;
+    animation-name: logo-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes logo-zoom {
+    from {
+        transform: scale(0.8);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+
+/* Site Navigation Styling */
+.navigation {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+
 .navigation a {
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
@@ -14,9 +42,12 @@
 }
 
 #active {
-    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     color: #1e81b0;
     text-transform: uppercase;
     letter-spacing: 0px;
+}
+
+.navigation a:hover {
+    border-bottom: 1px solid #1e81b0;
 }
