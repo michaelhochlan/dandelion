@@ -75,87 +75,45 @@ body {
 
 }
 
-#quote-home {
+.quote {
     font-size: 130%;
     font-family: 'Nunito Sans', sans-serif;
+
+    padding-top: 10px;
+    padding-left: 10px;
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
+#home {
     width: 400px;
     height: 170px;
-
-    padding-top: 10px;
-    padding-left: 10px;
-
     background-color: rgba(226,135,67,.5);
-
-    bottom: 30px;
-    right: 150px;
-
-    position: absolute;
 }
 
-#quote-coffee {
-    font-size: 130%;
-    font-family: 'Nunito Sans', sans-serif;
+#coffee {
     width: 450px;
     height: 100px;
-
-    padding-top: 10px;
-    padding-left: 10px;
-
     background-color: rgba(30,129,176,.5);
-
-    bottom: 30px;
-    right: 150px;
-
-    position: absolute;
 }
 
-#quote-capers {
-    font-size: 130%;
-    font-family: 'Nunito Sans', sans-serif;
+#capers {
     width: 470px;
     height: 130px;
-
-    padding-top: 10px;
-    padding-left: 10px;
-
     background-color: rgba(135,62,35,.5);
-
-    bottom: 30px;
-    right: 150px;
-
-    position: absolute;
 }
 
-#quote-tincture {
-    font-size: 130%;
-    font-family: 'Nunito Sans', sans-serif;
+#tincture {
     width: 470px;
     height: 130px;
-
-    padding-top: 10px;
-    padding-left: 10px;
-
     background-color: rgba(171,219,227,.5);
-
-    bottom: 30px;
-    right: 150px;
-
-    position: absolute;
 }
 
-#quote-newsletter {
-    font-size: 130%;
-    font-family: 'Nunito Sans', sans-serif;
+#newsletter {
     width: 520px;
     height: 170px;
-
-    padding-top: 10px;
-    padding-left: 10px;
-
     background-color: rgba(226,135,67,.5);
-
-    bottom: 30px;
-    right: 150px;
-
-    position: absolute;
 }
